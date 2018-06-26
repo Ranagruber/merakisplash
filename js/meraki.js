@@ -18,7 +18,7 @@ document.getElementById("nodeMAC").innerHTML = node_mac;
 document.getElementById('loginForm').onsubmit= function(e){
     e.preventDefault(); //prevents default form submission process to allow login and validation
     login();
-}
+};
 
 // ******************
 // Login to Meraki by redirecting client to the base_grant_url 
