@@ -1,6 +1,6 @@
 // Parse paramaters
 var base_grant_url = decodeURIComponent(GetURLParameter("base_grant_url"));
-var user_continue_url = decodeURIComponent(GetURLParameter("user_continue_url"));
+var user_continue_url = decodeURIComponent(GetURLParameter("https://ranagruber.sharepoint.com"));
 var node_mac = GetURLParameter("node_mac");
 var client_ip = GetURLParameter("client_ip");
 var client_mac = GetURLParameter("client_mac");
